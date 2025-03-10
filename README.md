@@ -57,7 +57,3 @@ Este é um resumo dos comandos Git utilizados durante a aula. Ele contém os com
 
 - **`git merge <branch>`**  
   Mescla as alterações de uma branch para a branch atual.
-
-## Conclusão
-
-Esses são os comandos essenciais que você precisará para gerenciar e configurar seus repositórios Git de maneira eficaz.
