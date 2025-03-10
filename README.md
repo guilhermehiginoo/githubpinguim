@@ -58,6 +58,19 @@ Este é um resumo dos comandos Git utilizados durante a aula. Ele contém os com
 - **`git merge <branch>`**  
   Mescla as alterações de uma branch para a branch atual.
 
+## O que são **Branches**?
+
+As **branches** (ou ramificações) no Git são como diferentes linhas de desenvolvimento dentro de um repositório. Elas permitem que você crie versões paralelas do seu código, onde você pode fazer alterações e testar novas ideias sem afetar o código principal. 
+
+Por exemplo, você pode criar uma branch para testar um novo recurso ou uma funcionalidade e, caso funcione bem, pode mesclar essa branch de volta na `main` (ou qualquer outra branch principal). Se não funcionar, você pode simplesmente descartar a branch sem afetar o restante do projeto.
+
+### Fluxo comum de uso de branches:
+
+1. Cria-se uma branch para desenvolver novas funcionalidades ou realizar testes.  
+2. Após finalizar o desenvolvimento e testar, você pode **mesclar** essas alterações de volta à branch principal (geralmente chamada de `main`).
+
+Assim, **branches** ajudam a manter o código organizado e seguro, permitindo testar e desenvolver de maneira isolada, sem afetar a estabilidade do projeto principal.
+
 ## Conclusão
 
 Esses são os comandos essenciais que você precisará para gerenciar e configurar seus repositórios Git de maneira eficaz.
